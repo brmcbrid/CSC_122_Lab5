@@ -1,12 +1,12 @@
-# Tests for Lab6
+# Tests for Lab5
 # Falling Distance Calculator
 
 import os.path
 import sys
-from Lab6 import main
+from Lab5 import main
 from tud_tests import *
 
-def test_Lab6():
+def test_Lab5():
 
     try:
         exists = os.path.exists("Lab5.py")
